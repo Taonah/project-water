@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DROP</title>
+    <link rel="stylesheet" href="water.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel= 'stylesheet'>
+</head>
+<body>
+    <header>
+        <h2 class="DROP">DROP</h2>
+    <nav class="navigation">
+    <!--the href specifies the URL of the  page the link goes to e.g href='#' means  link to the top of the page-->
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">SERVICES</a>
+    <a href="#">CONTACT</a>
+    <button class="btnlogin.popup">LOGIN</button>
+    </nav>
+</header>
+
+<div class="wrapper ">
+    <span class="icon-close"><ion-icon name="close-circle-outline"></ion-icon></span>
+
+<div class="form-box Login">
+    <h2>Login</h2>
+    <form action="a">
+        <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon>
+            </span>
+            <input type="email" required>
+            <label>Email</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">
+            Remember me</label>
+            <a href="a">forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="login-register">
+            <p>Don't have an account? <a
+            href="a" 
+            class="register-link">Register</a></p>
+         </div>
+     </form>
+   </div>
+
+<div class="form-box Register">
+    <h2>REGISTRATION</h2>
+    <form action="a">
+        <div class="input-box">
+            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <input type="text" required>
+            <label>Username</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="mail" required>
+            <label>Email</label>
+        </div>
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <input type="text" required>
+            <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">
+            Agree to the terms & conditions </label>
+            <a href="a">forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <div class="login-register">
+            <p>Already have an account? <a
+             href="a" class="longin-link">Login</a>
+            </p>
+        </div> 
+    </form>
+</div>
+</div>
+
+<script src="water.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
